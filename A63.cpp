@@ -32,6 +32,7 @@ int getSum(int N) {
 		max = (max < num) ? num : max;
 	}
 
+	// returning sum
 	sum = sum - min - max;
 	return sum;
 }
